@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img  src="img/Logo.png" alt="Logo Alura">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-tarea" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            <div class="aviso">
+               
+                <h6>Apenas letras minúsculas e sem acento</h6>
+            </div>
+            <div class="button">
+                <button class="btn-criptografar" onclick="btncriptografar()">Criptografar</button>
+                <button class="btn-descriptografar" onclick="btndescriptografar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="imagem" cols="20" rows="10"></textarea>
+            <button id="btn-copiar" onclick="copiar()">Copiar</button>
+        </section>
+        
+    </main>
+    
+    <script src="script.js"></script>
+
+    <footer class="rodape">
+        <h1>©Desenvolvido por Vania Melo | Alura & Oracle - 2024.</h1>
+        <div class="icons">
+
+            <a href="https://github.com/Vany005"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/vania-melo/"><ion-icon name="logo-linkedin"></ion-icon></a>
+
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
