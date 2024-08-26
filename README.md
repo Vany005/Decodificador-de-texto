@@ -25,3 +25,6 @@ Por exemplo:
 
 <h1>🤝Contribuição</h1>
 Contribuições são bem-vindas!
+
+![Decodificador de texto](https://github.com/user-attachments/assets/90043b00-002c-4673-9c8e-7f13a37049ea)
+
